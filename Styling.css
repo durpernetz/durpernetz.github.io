@@ -1,0 +1,19 @@
+body {
+    margin: 0;
+    background-color: #272727;
+}
+
+.main-header {
+    font-family: 'Old English Text MT';
+    color: #fff;
+    font-size: 60px;
+    text-align: center;
+}
+
+.sub-header {
+    font-family: 'Lubalin Graph';
+    color: #fff;
+    font-size: 20px;
+    text-align: center;
+    padding: 20px 0 20px;
+}
