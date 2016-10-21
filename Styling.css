@@ -81,6 +81,12 @@ p {
     color: white;
 }
 
+.social-icon {
+    display: inline-block;
+    height: 35px;
+    width: auto;
+}
+
 /**HELPER CLASSES**/
 
 clearfix:after {
