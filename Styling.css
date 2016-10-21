@@ -69,6 +69,10 @@ nav ul li a {
     padding: 0 10px;
 }
 
+nav ul li a:hover {
+    color: white;
+}
+
 .work {
     margin-top: 100%;
 }
