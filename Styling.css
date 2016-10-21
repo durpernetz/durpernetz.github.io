@@ -1,5 +1,5 @@
 body {
-    background: #272727;
+    background: #6699ff;
     margin: 0;
     padding: 0;
     border: 0;
@@ -54,15 +54,4 @@ body {
     color: white;
     text-decoration: none;
     padding: 0 10px;
-}
-
-li a:hover {
-    color: #57A64A;
-}
-
-ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
 }
