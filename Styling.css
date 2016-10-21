@@ -94,3 +94,8 @@ clearfix:after {
     display: block;
     clear: both;
 }
+
+.white-fliter {
+    filter: brightness(100%);
+    -webkit-filter: brightness(100%);
+}
