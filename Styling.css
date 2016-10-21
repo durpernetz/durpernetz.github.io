@@ -64,13 +64,17 @@ nav ul li {
 
 nav ul li a {
     display: block;
-    color: white;
+    color: green;
     text-decoration: none;
     padding: 0 10px;
 }
 
 .work {
     margin-top: 100%;
+}
+
+h2 {
+    color: green;
 }
 
 p {
