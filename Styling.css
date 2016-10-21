@@ -1,9 +1,11 @@
 body {
-    background: #6699ff;
+    background: #272727;
     margin: 0;
     padding: 0;
     border: 0;
     font-size: 100%;
+    font-family: helvetica, sans-serif;
+    color: white;
     vertical-align: baseline;
 }
 
