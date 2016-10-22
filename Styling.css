@@ -22,7 +22,7 @@ body {
     padding-top: 80px;
 }
 
-header {
+#header {
     z-index: 2;
     position: fixed;
     width: 100%;
@@ -38,7 +38,7 @@ header:after {
     clear: both;
 }
 
-header h1 {
+#header h1 {
     top: 0px;
     display: block;
     float: left;
@@ -47,29 +47,29 @@ header h1 {
     font-size: 1.2em;
 }
 
-nav {
+#nav {
     display: block;
     float: right;
     height: 60px;
 }
 
-nav ul {
+#nav ul {
     margin: 0;
 }
 
-nav ul li {
+#nav ul li {
     float: left;
     list-style: none;
 }
 
-nav ul li a {
+#nav ul li a {
     display: block;
     color: green;
     text-decoration: none;
     padding: 0 10px;
 }
 
-nav ul li a:hover {
+#nav ul li a:hover {
     color: white;
 }
 
