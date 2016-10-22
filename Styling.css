@@ -22,7 +22,7 @@ body {
     padding-top: 80px;
 }
 
-#header {
+header {
     z-index: 2;
     position: fixed;
     width: 100%;
@@ -38,7 +38,7 @@ header:after {
     clear: both;
 }
 
-#header h1 {
+header h1 {
     top: 0px;
     display: block;
     float: left;
@@ -47,29 +47,29 @@ header:after {
     font-size: 1.2em;
 }
 
-#nav {
+nav {
     display: block;
     float: right;
     height: 60px;
 }
 
-#nav ul {
+nav ul {
     margin: 0;
 }
 
-#nav ul li {
+nav ul li {
     float: left;
     list-style: none;
 }
 
-#nav ul li a {
+nav ul li a {
     display: block;
     color: green;
     text-decoration: none;
     padding: 0 10px;
 }
 
-#nav ul li a:hover {
+nav ul li a:hover {
     color: white;
 }
 
@@ -93,14 +93,14 @@ p {
 
 /**MOBILE RESPONSIVENESS**/
 @@media (max-width: 599px) {
-  #header h1 {
+  header h1 {
     width: 100%;
   }
-  #nav {
+  nav {
     width: 100%;
     top: 60px;
   }
-  #nav:before {
+  nav:before {
     content: '\2630';
     display: block;
     position: absolute;
@@ -110,15 +110,15 @@ p {
     font-size: 1.4em;
     cursor: pointer;
   }
-  #nav ul {
+  nav ul {
     background: #222;
     width: 100%;
     margin: 0px;
   }
-  #nav ul li {
+  nav ul li {
     float: none;
   }
-  #nav ul li a {
+  nav ul li a {
     padding: 10px 3%;
     line-height: 20px;
     border-top: 1px solid #333;
