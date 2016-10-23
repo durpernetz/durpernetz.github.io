@@ -43,7 +43,7 @@ header h1 {
     display: block;
     float: left;
     margin: 0px;
-    text-transform: uppercase;
+    text-transform: lowercase;
     font-size: 1.2em;
 }
 
